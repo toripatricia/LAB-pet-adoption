@@ -13,7 +13,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
       type: "dino",
-      imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+      imageUrl: "https://i.pinimg.com/originals/b3/5f/d0/b35fd0028292ea5dafee7c829808bd6b.png",
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ const pets = [
       color: "Grey",
       specialSkill: "Comfortable in the outdoors for up to eight hours.",
       type: "dino",
-      imageUrl: "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg"
+      imageUrl: "https://cdn.dribbble.com/users/1044993/screenshots/9009749/media/6e55d3fd4372ad500ba54c495ea40d73.png?compress=1&resize=400x300"
     },
     {
       id: 9,
@@ -85,7 +85,7 @@ const pets = [
       color: "Orange",
       specialSkill: "Can be around food without staring creepily at it.",
       type: "dino",
-      imageUrl: "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600"
+      imageUrl: "https://www.shutterstock.com/shutterstock/photos/1640790232/display_1500/stock-vector-cute-cartoon-dinosaur-tyrannosaur-orange-dinosaur-isolated-on-a-white-background-vector-1640790232.jpg"
     },
     {
       id: 12,
@@ -101,7 +101,7 @@ const pets = [
       color: "Red",
       specialSkill: "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
       type: "dog",
-      imageUrl: "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg"
+      imageUrl: "https://i.pinimg.com/736x/57/54/0b/57540b7db1d47708665e1a6a8d1b7677.jpg"
     },
     {
       id: 14,
@@ -125,7 +125,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Drives at a safe rate of speed in snow or rain.",
       type: "dino",
-      imageUrl: "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg"
+      imageUrl: "https://cdn2.vectorstock.com/i/1000x1000/31/66/cute-dinosaur-cartoon-vector-9813166.jpg"
     },
     {
      id: 17,
@@ -133,7 +133,7 @@ const pets = [
       color: "Yellow",
       specialSkill: "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg"
+      imageUrl: "https://i.pinimg.com/736x/aa/f2/d2/aaf2d2eacb2392a265ca8c40468956b5.jpg"
     },
     {
       id: 18,
@@ -141,7 +141,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Proficient in air guitar",
       type: "dino",
-      imageUrl: "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg"
+      imageUrl: "https://static2.bigstockphoto.com/0/8/2/large2/280647787.jpg"
     },
     {
       id: 19,
@@ -149,7 +149,7 @@ const pets = [
       color: "Blue",
       specialSkill: "Listens attentively to boring stories.",
       type: "dog",
-      imageUrl: "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
+      imageUrl: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pit-bull-puppy-royalty-free-image-1599741486.jpg"
     },
     {
       id: 20,
@@ -157,7 +157,7 @@ const pets = [
       color: "Black",
       specialSkill: "Uses litter box at appropriate hours.",
       type: "cat",
-      imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg"
+      imageUrl: "https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"
     },
     {
       id: 21,
@@ -165,7 +165,7 @@ const pets = [
       color: "Red",
       specialSkill: "Owns a Nintendo Power Glove.",
       type: "dino",
-      imageUrl: "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715"
+      imageUrl: "https://inhomecatgrooming.com/wp-content/uploads/2021/12/cat-haircuts-1.jpg"
     },
     {
         id: 22,
@@ -173,7 +173,7 @@ const pets = [
       color: "Orange",
       specialSkill: "Is comfortable with jokes about his receding hairline.",
       type: "cat",
-      imageUrl: "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg"
+      imageUrl: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-photos-1593441022.jpg"
     },
     {
         id: 23,
@@ -189,7 +189,7 @@ const pets = [
       color: "Brown",
       specialSkill: "Participates in karaoke but does not force others to go out to karaoke.",
       type: "dog",
-      imageUrl: "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg"
+      imageUrl: "https://i.pinimg.com/736x/ac/bb/d2/acbbd20121347e9c150165aa8b9ffc0b--shar-pei-puppies-cute-puppies.jpg"
     },
     {
       id: 25,
@@ -197,7 +197,7 @@ const pets = [
       color: "Red",
       specialSkill: "Knows the words to 4 rap songs.",
       type: "cat",
-      imageUrl: "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg"
+      imageUrl: "https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/2/2022/05/black-and-white-cat-breeds-main.jpg"
     },
     {
         id: 26,
@@ -205,7 +205,7 @@ const pets = [
       color: "Yellow",
       specialSkill: "Cleans himself.",
       type: "dog",
-      imageUrl: "https://www.thetrendywhippet.co.uk/wp-content/uploads/2016/11/IMG_1651-600x400.jpg"
+      imageUrl: "https://m.media-amazon.com/images/I/61RIK6DnVgL._AC_UF894,1000_QL80_.jpg"
     },
     {
         id: 27,
@@ -237,6 +237,21 @@ const pets = [
       color: "Red",
       specialSkill: "Doesn’t get weirded out by the word “moist.”",
       type: "dino",
-      imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
+      imageUrl: "https://ih1.redbubble.net/image.2265552562.8651/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
     }
   ];
+
+  const targetingApp = document.querySelector(".app");
+  let domString = "";
+
+  for (const pet of pets) {
+    domString += `<div class="card" style="width: 18rem;">
+      <img src="${pet.imageUrl}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">${pet.name}</p>
+      </div>
+    </div>`;
+  }
+
+  console.log(domString);
+  targetingApp.innerHTML = domString;

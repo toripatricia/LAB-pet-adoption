@@ -255,3 +255,60 @@ const pets = [
 
   console.log(domString);
   targetingApp.innerHTML = domString;
+
+
+
+const renderToDom = (divId, htmlToRender) => {
+  const selectedDiv = document.querySelector(divId);
+  console.log("divId", divId);
+
+  selectedDiv.innerHTML = htmlToRender;
+};
+
+const app = document.querySelector('.card')
+
+
+const filter = (pets, typeStr) => {
+  const typeArr = [];
+for (const pet of pets) {
+  if (pet.type === typeStr) {
+    typeArr.push(pet)
+  }
+}
+return typeArr
+}
+
+const cardsOnDom = (array) => {
+  let domString = "";
+  for (const pet of array) {
+    domString += `<div class="card" style="width: 18rem;">
+    <img src="${pet.imageUrl}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">${pet.name}</p>
+    </div>
+  </div>`;
+  }
+
+  renderToDom(".app", domString);
+};
+
+
+
+const catBtn = document.querySelector('.cat-button');
+const dogBtn = document.querySelector('.dog-button');
+const dinoBtn = document.querySelector('.dino-button');
+
+catBtn.addEventListener('click', () => {
+  const catPage = filter(pets, "cat");
+  cardsOnDom(catPage);
+});
+
+dogBtn.addEventListener('click', () => {
+  const dogPage = filter(pets, "dog");
+  cardsOnDom(dogPage);
+});
+
+dinoBtn.addEventListener('click', () => {
+  const dinoPage = filter(pets, "dino");
+  cardsOnDom(dinoPage);
+});

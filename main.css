@@ -1,0 +1,27 @@
+.cat-button {
+  height: 66px;
+  width: 150px;
+  background-color: blueviolet;
+  margin-bottom: 20px;
+}
+
+.dog-button {
+  height: 66px;
+  width: 150px;
+  background-color:coral;
+  margin-bottom: 20px;
+
+}
+
+.dino-button {
+  height: 66px;
+  width: 150px;
+  background-color:darkolivegreen;
+  margin-bottom: 20px;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

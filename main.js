@@ -241,20 +241,20 @@ const pets = [
     }
   ];
 
-  const targetingApp = document.querySelector(".app");
-  let domString = "";
+  // const targetingApp = document.querySelector(".app");
+  // let domString = "";
 
-  for (const pet of pets) {
-    domString += `<div class="card" style="width: 18rem;">
-      <img src="${pet.imageUrl}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">${pet.name}</p>
-      </div>
-    </div>`;
-  }
+  // for (const pet of pets) {
+  //   domString += `<div class="card" style="width: 18rem;">
+  //     <img src="${pet.imageUrl}" class="card-img-top" alt="...">
+  //     <div class="card-body">
+  //       <p class="card-text">${pet.name}</p>
+  //     </div>
+  //   </div>`;
+  // }
 
-  console.log(domString);
-  targetingApp.innerHTML = domString;
+  // console.log(domString);
+  // targetingApp.innerHTML = domString;
 
 
 
@@ -285,6 +285,7 @@ const cardsOnDom = (array) => {
     <img src="${pet.imageUrl}" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">${pet.name}</p>
+      <button class="btn btn-danger" id="delete--${pet.id}">Delete</button>
     </div>
   </div>`;
   }
@@ -312,3 +313,67 @@ dinoBtn.addEventListener('click', () => {
   const dinoPage = filter(pets, "dino");
   cardsOnDom(dinoPage);
 });
+
+cardsOnDom(pets);
+
+
+// CREATE
+
+const createPet = (event) => {
+  event.preventDefault();
+
+  const name = document.querySelector("#name");
+  const color = document.querySelector("#color");
+  const specialSkill = document.querySelector("#specialSkill");
+  const type = document.querySelector("#type");
+  const imageUrl = document.querySelector("#image");
+
+  console.log(name);
+  console.log(name.value);
+
+  const newPet = {
+    name: name.value,
+    color: color.value,
+    specialSkill: specialSkill.value,
+    type: type.value,
+    imageUrl: imageUrl.value
+  };
+  console.log("new pet", newPet);
+
+  pets.push(newPet);
+  console.log(pets);
+  cardsOnDom(pets);
+};
+
+  const submitButton = document.querySelector("#form-submit");
+
+  submitButton.addEventListener("click", createPet);
+
+
+  const appDiv = document.querySelector(".app");
+
+  // 2. Add an event listener to capture clicks
+  
+  appDiv.addEventListener("click", (event) => {
+    // 3. check e.target.id includes "delete"
+    if (event.target.id.includes("delete")) {
+      // 4. add logic to remove from array
+  
+      const [throwAway, petID] = event.target.id.split("--");
+      // what object needs to be removed and I know my memberID
+      console.log(petID);
+      const indexOfPet = pets.findIndex((obj) => obj.id === Number(petID));
+      pets.splice(indexOfPet, 1);
+    }
+    // 5. Repaint the DOM with the updated array
+  cardsOnDom(pets);
+  });
+  
+  
+  const startApp = () => {
+    cardsOnDom(pets);
+    // events(); // ALWAYS LAST
+  };
+  
+  startApp();
+  
